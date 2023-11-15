@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*FORMATAÇÕES TEXTOS*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logomarca{
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.header a{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.highlight-text{
+    padding-top: 60px;
+    font-size: 80px;
+    color: aliceblue;
+}
+
+.title{
+    padding-left: 20px;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+#title-2{
+    padding: 0;
+}
+
+#title-3{
+    color: black;
+    padding-left: 0px;
+}
+
+.long-text{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+#long-1{
+    font-size: 20px;
+}
+
+/*DIVS*/
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-one{
+    width: 100%;
+    height: 800px;
+    background-image: url(bg1.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.s-one-1{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.section-two{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s-two-1{
+    background: linear-gradient(black, rgb(1, 1, 85));
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s-two-2{
+    background-image: url(ct.jpg);
+    background-size: 12%;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s-two-3{
+    background-image: url(polig.jpg);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-three{
+    background: linear-gradient(black, rgb(173, 173, 173));
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*konisaga akira red, bugga ashiro, McLatas Leaf, ForDesire Sun, Lamboroza,*/
+.carro-1{
+    background-image: url(p1.jpg);
+    background-size: 110%;
+    background-position: center;
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carro-2{
+    background-image: url(p2.webp);
+    background-size: 145%;
+    background-position: top;
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.carro-3{
+    background-image: url(p3.jpg);
+    background-size: 110%;
+    background-position: top;
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.carro-4{
+    background-image: url(p4.jpg);
+    background-size: 120%;
+    background-position: right;
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.carro-5{
+    background-image: url(p5.jpg);
+    background-size: 100%;
+    background-position: center;
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.carro-6{
+    background-image: url(p6.jpg);
+    background-size: 125%;
+    background-position: center;
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.carro-1:hover{ transform: scale(1.1); 
+    transition: ease;
+    transition-duration: 1s;
+    animation-name: border;
+    animation-duration: 20s;
+}
+.carro-2:hover{ transform: scale(1.1); 
+    transition: ease;
+    transition-duration: 1s;
+    animation-name: border;
+    animation-duration: 20s;
+}
+.carro-3:hover{ transform: scale(1.1); 
+    transition: ease;
+    transition-duration: 1s;
+    animation-name: border;
+    animation-duration: 20s;
+}
+.carro-4:hover{ transform: scale(1.1); 
+    transition: ease;
+    transition-duration: 1s;
+    animation-name: border;
+    animation-duration: 20s;
+}
+.carro-5:hover{ transform: scale(1.1); 
+    transition: ease;
+    transition-duration: 1s;
+    animation-name: border;
+    animation-duration: 20s;
+}
+.carro-6:hover{ transform: scale(1.1); 
+    transition: ease;
+    transition-duration: 1s;
+    animation-name: border;
+    animation-duration: 20s;
+}
+
+@keyframes border {
+    0%{
+        border: 1px;
+        border-color: aliceblue;
+        border-style: solid;
+    }
+    1%{
+        border: 5px;
+        border-color: aliceblue;
+        border-style: solid;
+    }
+    100%{
+        border: 5px;
+        border-color: aliceblue;
+        border-style: solid;
+    }}
+
+.light{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 800px;
+}
+
+.light:hover{
+    animation-name: turnon;
+    animation-duration: 30s;
+    animation-timing-function: 1;
+}
+
+@keyframes turnon {
+    0%{opacity: 100%;}
+    2%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 0%;
+    }
+    
+}
+
+.name{
+    width: 100%;
+    height: 100%;
+    opacity: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.name:hover{
+    animation: show;
+    animation-duration: 60s;
+    animation-iteration-count: 1;
+}
+
+#nm1{
+    color: rgb(241, 241, 241);
+}
+
+@keyframes show {
+    0%{
+        opacity: 0%;
+    }
+    0.5%{
+        opacity: 100%;
+    }
+    100%{opacity: 100%;}
+}
+
+.feed{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#feed{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.resp{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-left: 29%;
+    margin-top: 6%;
+    border-radius: 30%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0%;
+}
+
+#r1:hover{
+    opacity: 100%;
+    margin-top: 6.5%;
+}
+
+#r2{
+    margin-top: 13%;
+    border-radius: 33%;
+}
+
+#r2:hover{
+    opacity: 100%;
+}
+
+#r3{
+    margin-top: 19.4%;
+}
+
+#r3:hover{
+    opacity: 100%;
+}
+
+
+.form-1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 2%;
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+textarea:hover{
+    height: 270px;
+}
+
+.btn-feed{
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    margin-top: 300px;
+    margin-left: -400px;
+}
+
+.f-right{
+    width: 400px;
+    height: 335px;
+    float: right;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.f-right a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.f-right-emote{
+    border-radius: 80px;
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.emote1{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgb(0, 255, 17);
+}
+.emote2{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgb(221, 255, 0);
+}
+.emote3{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgb(255, 19, 2);
+}
+
+.form-2{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 2%;
+    width: 25%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+
+.ourteam{
+    background-color: rgb(172, 171, 171);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#team{
+    width: 100%;
+    text-align: center;
+}
+
+.func{
+    border-radius: 10px;
+    background-color: black;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team-img{
+    border-radius: 10px;
+    width: 260px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.time{
+    width: 100%;
+    height: 1000px;
+    background-image: url(f2.jpeg);
+    text-align: center;
+}
+
+.worker{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(54, 54, 54);
+    margin-left: 400px;
+    margin-top: 10px;
+    transition: width 0.5s ease;
+    color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(26, 26, 26);
+}
+
+#wk2{
+    margin-left: 750px;
+    margin-top: 110px;
+}
+#wk3{
+    margin-left: 1270px;
+    margin-top: 170px;
+}
+#wk4{
+    margin-left: 1500px;
+    margin-top: 220px;
+}
+.worker:hover{
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+    color: aliceblue;
+}   
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-left{
+    color: aliceblue;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-right{
+    color: aliceblue;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
